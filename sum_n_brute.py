@@ -3,17 +3,17 @@ def suma(h):
     randomlist = random.sample(range(1, 1000), 50)
     print(randomlist)
 
-    x = 0
-    y = 0
-    n = input("Numero: ")
+    n = input("Indica el indice: ")
 
     for i in range(len(randomlist)):
 
-        if n > i +1:
-            h = i + (i+1)
+        if int(n) > int(i +1) or int(n) == int(i + 1):
+            h = randomlist[i] + randomlist[i+1]
+            print(i)
+            print(i +1)
         
-        elif n == i +1:
-            return suma
+        elif int(n) < int(i + 1):
+            return h
         
         #if n > y:
            #h = randomlist[x] + randomlist[y]
