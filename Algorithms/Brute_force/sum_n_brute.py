@@ -1,9 +1,10 @@
-def suma(h):
+def suma(n):
     import random
     randomlist = random.sample(range(1, 1000), 50)
     print(randomlist)
 
-    n = input("Indica el indice: ")
+    h = 0
+    print("Indice:", n)
 
     for i in range(len(randomlist)):
 
@@ -13,5 +14,3 @@ def suma(h):
         elif int(n) < int(i + 1):
             return h
         
-h = 0
-print(suma(h))

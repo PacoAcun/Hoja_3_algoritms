@@ -1,7 +1,5 @@
-def list_2(): 
-  
-  list1 = [1,4,9]
-  list2 = [2,3,8]
+def list_2(list1, list2): 
+
   newlist = []
 
   i = 0

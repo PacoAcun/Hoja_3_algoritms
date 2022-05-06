@@ -13,8 +13,5 @@ def searchlist():
     elif i < y :
       y = i
 
-  print()
   print("El maximo es:", x)
   print("El minimo es:", y)
-
-print(searchlist())

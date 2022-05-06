@@ -7,7 +7,3 @@ def divisor(n):
             d.append(i)
             
     return d
-
-n = input("Ingrese un numero: ")
-result = divisor(int(n))
-print("numero: "+str(n)+ " divisores: "+str(result))

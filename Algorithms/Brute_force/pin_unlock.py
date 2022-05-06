@@ -7,7 +7,6 @@ def unlock(pin):
             for t in range (10):
                 for u in range (10):
                     guess = str(i)+ str(j)+ str(t)+ str(u)
-                    print(guess)
                     
 
                     if guess == code:
@@ -15,5 +14,4 @@ def unlock(pin):
                         return x
 
 
-n = input("Indique un pin: ")
-print(unlock(str(n)))
+
