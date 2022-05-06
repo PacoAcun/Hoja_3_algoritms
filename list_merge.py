@@ -1,4 +1,4 @@
-def problema15(): 
+def list_2(): 
   
   list1 = [1,4,9]
   list2 = [2,3,8]

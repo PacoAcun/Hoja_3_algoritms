@@ -1,6 +1,6 @@
 def searchlist():
   import random
-  randomlist = random.sample(range(1, 1000), 100)
+  randomlist = random.sample(range(1, 1000), 25)
   print(randomlist)
 
   y = randomlist[0]

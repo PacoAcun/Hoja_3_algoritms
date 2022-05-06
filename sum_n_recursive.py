@@ -9,4 +9,6 @@ def sum_n(n):
     else:
         return n + sum_n(n - 1)
 
-print(sum_n(5))
+
+n = input("Numero: ")
+print(sum_n(int(n)))
