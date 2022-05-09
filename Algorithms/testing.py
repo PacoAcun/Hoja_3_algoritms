@@ -81,3 +81,38 @@ print("--------Nth fibonacci number---------")
 num = 8
 print(fibonacci_recursive.fibo(int(num)))
 print()
+
+
+
+
+
+from Searching import binary_search, linearsearch
+print()
+print("--------------------------------")
+print("------------Searching-----------")
+print("--------------------------------")
+print()
+
+print("------------Countdown------------")
+seg = int(5)
+print(countdown.count(int(seg)))
+print()
+
+
+print("---------Divisors of n ----------")
+num = 10
+fact = fact_n_recursive.fact(int(num))
+print("El factorial de", num,"es", fact)
+print()
+
+
+print("--------Sum of first n numbers recursive---------")
+num = 10
+print(sum_n_recursive.sum_n(int(num)))
+print()
+
+
+print("--------Nth fibonacci number---------")
+num = 8
+print(fibonacci_recursive.fibo(int(num)))
+print()
