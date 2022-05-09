@@ -47,3 +47,37 @@ print("------Largest number in list------")
 print(numbers_list.searchlist())
 print()
 
+
+
+
+
+from Recursion import countdown, fact_n_recursive, fibonacci_recursive, sum_n_recursive
+print()
+print("--------------------------------")
+print("------------Recursion-----------")
+print("--------------------------------")
+print()
+
+print("------------Countdown------------")
+seg = int(5)
+print(countdown.count(int(seg)))
+print()
+
+
+print("---------Divisors of n ----------")
+num = 10
+fact = fact_n_recursive.fact(int(num))
+print("El factorial de", num,"es", fact)
+print()
+
+
+print("--------Sum of first n numbers recursive---------")
+num = 10
+print(sum_n_recursive.sum_n(int(num)))
+print()
+
+
+print("--------Nth fibonacci number---------")
+num = 8
+print(fibonacci_recursive.fibo(int(num)))
+print()

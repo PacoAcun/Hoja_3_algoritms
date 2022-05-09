@@ -1,14 +1,10 @@
 import sys
 sys.setrecursionlimit(2000)
 
-def sum_n(n):
+def sum_n(num):
 
-    if n == 1:
+    if num == 1:
         return 1
 
     else:
-        return n + sum_n(n - 1)
-
-
-n = input("Numero: ")
-print(sum_n(int(n)))
+        return num + sum_n(num - 1)

@@ -1,13 +1,7 @@
-def fact(n):
+def fact(num):
 
-    if n == 1 or n == 0:
+    if num == 1 or num == 0:
         return 1
 
     else:
-        return n * fact(n - 1)
-        
-
-x = input("Ingrese un numero para saber su factorial: ")
-y = fact(int(x))
-
-print("El factorial de", x,"es", y)
+        return num * fact(num - 1)
