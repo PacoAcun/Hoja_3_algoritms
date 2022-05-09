@@ -9,11 +9,6 @@ def order(arr):
 
     return arr
 
-y = [-2, 45, 0, 11, -9, 8, 30, 60, 2, 20]
-print("Lista desordenada: ", y)
-
-z = order(y)
-print("Lista ordenada: ", z)
 
 
 
@@ -35,13 +30,3 @@ def search(arr , n):
             l = m + 1
     
     return -1
-
-n = int(input("Ingresa el numero que quieras buscar: "))
-x = search(y , n)
-
-
-if x == -1:
-    print("El numero", n, "no esta en la lista")
-    
-else:
-    print("El numero", n, "esta en el indice", x)
