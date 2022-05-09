@@ -107,20 +107,11 @@ else:
 print()
 
 
-print("---------Divisors of n ----------")
-num = 10
-fact = fact_n_recursive.fact(int(num))
-print("El factorial de", num,"es", fact)
+print("---------Linear search----------")
+import random
+randomlist = random.sample(range(1, 1000), 25)
+x = 2
+print(linearsearch.linearsearch(randomlist, x))
 print()
 
 
-print("--------Sum of first n numbers recursive---------")
-num = 10
-print(sum_n_recursive.sum_n(int(num)))
-print()
-
-
-print("--------Nth fibonacci number---------")
-num = 8
-print(fibonacci_recursive.fibo(int(num)))
-print()
