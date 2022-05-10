@@ -1,3 +1,4 @@
+import random
 from Brute_force import divisors_n_brute, pin_unlock, sum_n_brute
 print()
 print("--------------------------------")
@@ -108,7 +109,6 @@ print()
 
 
 print("---------Linear search----------")
-import random
 randomlist = random.sample(range(1, 1000), 25)
 x = 2
 print(linearsearch.linearsearch(randomlist, x))
@@ -118,7 +118,7 @@ print()
 
 
 
-from Sorting import bubble_sort, selection_sort, bubble_op
+from Sorting import bubble_sort, selection_sort, bubble_op, insertion_sort
 print()
 print("--------------------------------")
 print("-------------Sorting------------")
@@ -134,7 +134,6 @@ print()
 
 
 print("---------Selection sort----------")
-import random
 randomlist = random.sample(range(1, 1000), 8)
 print("Lista desordenada:", randomlist)
 arr = randomlist
@@ -143,7 +142,6 @@ print()
 
 
 print("---------Bubble sort optimized----------")
-import random
 randomlist = random.sample(range(1, 25), 7)
 print(randomlist)
 arr = randomlist
@@ -151,10 +149,9 @@ print(bubble_op.bubble_op(arr))
 print()
 
 
-print("---------Bubble sort optimized----------")
-import random
-randomlist = random.sample(range(1, 25), 7)
-print(randomlist)
+print("---------Insertion sort----------")
+randomlist = random.sample(range(1, 1000), 8)
+print("Lista desordenada:", randomlist)
 arr = randomlist
-print(bubble_op.bubble_op(arr))
+print("Lista ordenada:", insertion_sort.insertion_sort(arr))
 print()

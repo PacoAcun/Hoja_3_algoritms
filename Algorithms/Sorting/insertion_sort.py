@@ -1,6 +1,3 @@
-import random
-randomlist = random.sample(range(1, 1000), 8)
-print("Lista desordenada:", randomlist)
 
 
 def insertion_sort(arr):
@@ -15,6 +12,3 @@ def insertion_sort(arr):
         i += 1
     
     return arr
-
-y = randomlist
-print("Lista ordenada:", insertion_sort(y))
