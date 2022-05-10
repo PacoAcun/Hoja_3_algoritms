@@ -13,7 +13,3 @@ def bubble_op (arr):
             return arr
 
     return arr
-
-y = [-2, -9, 6, 8, 50, 32, 23]
-
-print(bubble_op(y))

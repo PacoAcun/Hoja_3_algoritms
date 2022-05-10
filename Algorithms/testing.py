@@ -118,7 +118,7 @@ print()
 
 
 
-from Sorting import bubble_sort, selection_sort
+from Sorting import bubble_sort, selection_sort, bubble_op
 print()
 print("--------------------------------")
 print("-------------Sorting------------")
@@ -139,4 +139,22 @@ randomlist = random.sample(range(1, 1000), 8)
 print("Lista desordenada:", randomlist)
 arr = randomlist
 print("Lista ordenada:", selection_sort.select_sort(arr))
+print()
+
+
+print("---------Bubble sort optimized----------")
+import random
+randomlist = random.sample(range(1, 25), 7)
+print(randomlist)
+arr = randomlist
+print(bubble_op.bubble_op(arr))
+print()
+
+
+print("---------Bubble sort optimized----------")
+import random
+randomlist = random.sample(range(1, 25), 7)
+print(randomlist)
+arr = randomlist
+print(bubble_op.bubble_op(arr))
 print()
