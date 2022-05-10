@@ -143,9 +143,9 @@ print()
 
 print("---------Bubble sort optimized----------")
 randomlist = random.sample(range(1, 25), 7)
-print(randomlist)
+print("Lista desordenada:", randomlist)
 arr = randomlist
-print(bubble_op.bubble_op(arr))
+print("Lista ordenada:", bubble_op.bubble_op(arr))
 print()
 
 
