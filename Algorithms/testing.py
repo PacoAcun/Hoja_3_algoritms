@@ -115,3 +115,27 @@ print(linearsearch.linearsearch(randomlist, x))
 print()
 
 
+
+
+
+from Sorting import bubble_sort, linearsearch
+print()
+print("--------------------------------")
+print("-------------Sorting------------")
+print("--------------------------------")
+print()
+
+print("------------Bubble sort------------")
+arr = [-2, 45, 0, 11, -9]
+print("Lista desordenada: ", arr)
+sorted_list = bubble_sort.bubble_sort(arr)
+print("Lista ordenada: ", sorted_list)
+print()
+
+
+print("---------Linear search----------")
+import random
+randomlist = random.sample(range(1, 1000), 25)
+x = 2
+print(linearsearch.linearsearch(randomlist, x))
+print()
