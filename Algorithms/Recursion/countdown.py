@@ -1,7 +1,4 @@
 import time
-
-
-
 def count(seg):
 
     print(seg)

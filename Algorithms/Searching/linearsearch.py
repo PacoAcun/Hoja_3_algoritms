@@ -1,5 +1,4 @@
-import random
-randomlist = random.sample(range(1, 1000), 25)
+
 
 def linearsearch(randomlist, x):
 
@@ -15,6 +14,3 @@ def linearsearch(randomlist, x):
 
   if c == False:
     print("El numero ingresado no se encuentra") 
-
-x = 2
-print(linearsearch(randomlist, x))
