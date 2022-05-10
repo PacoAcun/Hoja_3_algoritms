@@ -118,7 +118,7 @@ print()
 
 
 
-from Sorting import bubble_sort, linearsearch
+from Sorting import bubble_sort, selection_sort
 print()
 print("--------------------------------")
 print("-------------Sorting------------")
@@ -133,9 +133,10 @@ print("Lista ordenada: ", sorted_list)
 print()
 
 
-print("---------Linear search----------")
+print("---------Selection sort----------")
 import random
-randomlist = random.sample(range(1, 1000), 25)
-x = 2
-print(linearsearch.linearsearch(randomlist, x))
+randomlist = random.sample(range(1, 1000), 8)
+print("Lista desordenada:", randomlist)
+arr = randomlist
+print("Lista ordenada:", selection_sort.select_sort(arr))
 print()
